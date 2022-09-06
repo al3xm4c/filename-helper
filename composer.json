@@ -1,0 +1,38 @@
+{
+  "name": "al3xm4c/filename-helper",
+  "description": "A naive helper utility for dynamically creating filenames with a builder-like interface.",
+  "authors": [
+    {
+      "name": "Alex McBain",
+      "email": "alexmcbain5@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Alexmac\\FilenameHelper\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alexmac\\FilenameHelper\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
